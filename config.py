@@ -41,9 +41,7 @@ class Rkn_Botz(object):
     # Default caption (with safe fallback)
     DEFAULT_CAPTION = os.environ.get(
         "DEFAULT_CAPTION",
-        "<b><a href='https://t.me/Movie_Provider_group'>{file_name}</a></b>
-
-⚜️ <b>ᴘᴏᴡᴇʀᴇᴅ ʙʏ:</b> <b><a href='https://t.me/+-dkKSAGoUf4wZGFl'>[ Movieroll ]</a></b>"
+        "<b><a href='https://t.me/Movie_Provider_group'>{file_name}</a></b>"
     )
 
     # Sticker ID default
@@ -68,4 +66,5 @@ class Rkn_Botz(object):
 
 
 # ⚠️ Please do not remove this credit!
+
 
