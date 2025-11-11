@@ -1,4 +1,5 @@
 pyrofork
 tgcrypto
 motor
+gunicorn
 aiohttp
