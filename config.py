@@ -18,9 +18,9 @@ import time
 
 class Rkn_Botz(object):
     # Rkn client config (required)
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = os.environ.get("API_ID", "21140176")
+    API_HASH = os.environ.get("API_HASH", "b081ec8da8cf5263a6593041c1ae2a3b")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8381395008:AAFLu-Ytm0g6uhIBmAmsDgEvb7Fg6XPgtt4")
 
     # Start pic (default image link)
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/21a8e96b45cd6ac4d3da6.jpg")
@@ -35,7 +35,7 @@ class Rkn_Botz(object):
     FORCE_SUB = os.environ.get("FORCE_SUB", "Movieroll_M")
 
     # Database config (required)
-    DB_NAME = os.environ.get("DB_NAME", "AutoCaption_V05_Bot")
+    DB_NAME = os.environ.get("DB_NAME", "AutoCaption")
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://gouravbolange_db_user:yos9d73FCsyLpiI6@cluster0.wxnzgc0.mongodb.net/?retryWrites=true&w=majority&AutoCaption=Cluster0")
 
     # Default caption (with safe fallback)
@@ -68,3 +68,4 @@ class Rkn_Botz(object):
 
 
 # ⚠️ Please do not remove this credit!
+
